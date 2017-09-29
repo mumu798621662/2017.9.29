@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width;100%;
+    height:100%;
+}
+body{
+    background: url('img/bj.jpg') no-repeat center center / cover;
+}
+.div1{
+    width:56px;
+    height:100px;
+    /*background:#3875D7;*/
+    position:absolute;
+    border-radius: 50%;
+    top:0;
+    left:0;
+    font-size:20px;
+    text-align: center;
+    line-height: 60px;
+}
+.score{
+    width:100px;
+    height:30px;
+    position:absolute;
+    top:20px;
+    left:20px;
+    background:#c78f8e;
+    text-align: center;
+    line-height: 30px;
+    color:#0e2021;
+    border-radius: 50%;
+}
+.life{
+    width:100px;
+    height:30px;
+    position:absolute;
+    top:60px;
+    left:20px;
+    background:#c78f8e;
+    text-align: center;
+    line-height: 30px;
+    color:#232323;
+    border-radius: 50%;
+}
